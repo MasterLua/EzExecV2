@@ -20,6 +20,7 @@
 #include <fstream>
 #include <sstream>
 #include <strsafe.h>
+#include "newauth.h"
 #include "Console.h"
 #pragma comment(lib, "urlmon.lib")
 #define UNLEN 64
