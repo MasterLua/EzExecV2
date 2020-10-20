@@ -23,32 +23,32 @@ C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(170,90): warning C4552: 
 C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(194,90): warning C4552: '+' : résultat de l'expression non utilisé
 C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(214,125): warning C4552: '+' : résultat de l'expression non utilisé
 C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(277,3): warning C4551: liste d'arguments manquante dans l'appel de fonction
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(398,24): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(398,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(403,27): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(403,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(420,28): warning C4305: 'argument' : troncation de 'unsigned __int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(420,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(429,28): warning C4305: 'argument' : troncation de 'unsigned __int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(429,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(435,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(435,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(462,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(462,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(474,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(474,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(485,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(485,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(496,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(496,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(507,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(507,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(517,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(517,9): warning C4309: 'argument' : troncation de valeur de constante
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(525,24): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
-C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(525,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(396,24): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(396,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(401,27): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(401,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(418,28): warning C4305: 'argument' : troncation de 'unsigned __int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(418,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(427,28): warning C4305: 'argument' : troncation de 'unsigned __int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(427,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(433,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(433,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(460,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(460,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(472,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(472,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(483,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(483,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(494,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(494,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(505,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(505,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(515,23): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(515,9): warning C4309: 'argument' : troncation de valeur de constante
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(523,24): warning C4305: 'argument' : troncation de '__int64' à 'DWORD'
+C:\Users\NeverKillMe\source\repos\EzExecV2\EzExecV2.cpp(523,9): warning C4309: 'argument' : troncation de valeur de constante
   Génération de code en cours
   Previous IPDB not found, fall back to full compilation.
-  All 679 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  All 674 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
   Fin de la génération du code
   EzExecV2.vcxproj -> C:\Users\NeverKillMe\source\repos\EzExecV2\x64\Release\EzExecV2.exe

