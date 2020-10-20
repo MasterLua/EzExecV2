@@ -29,23 +29,6 @@ string sp = a_gethid();
 using namespace std;
 namespace con = JadedHoboConsole;
 
-string openfilename(HWND owner = NULL) {
-	OPENFILENAME ofn;
-	char fileName[MAX_PATH] = "";
-	ZeroMemory(&ofn, sizeof(ofn));
-	ofn.lStructSize = sizeof(OPENFILENAME);
-	ofn.hwndOwner = owner;
-	ofn.lpstrFilter = "Mod Menu Lua (*.lua)\0*.lua\0All Files (*.*)\0*.*\0";
-	ofn.lpstrFile = fileName;
-	ofn.nMaxFile = MAX_PATH;
-	ofn.Flags = OFN_EXPLORER | OFN_FILEMUSTEXIST | OFN_HIDEREADONLY;
-	ofn.lpstrDefExt = "";
-	string fileNameStr;
-	if (GetOpenFileName(&ofn))
-		fileNameStr = fileName;
-	return fileNameStr;
-}
-
 bool GetProcessEntryByName(string name, PROCESSENTRY32* pe) {
 	auto snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
 	if (snapshot == INVALID_HANDLE_VALUE) {
