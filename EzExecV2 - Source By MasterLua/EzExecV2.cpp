@@ -116,7 +116,7 @@ int main(int argc, const char* argv[]) {
 	}
 	cout << "[" << con::fg_red << "+" << con::fg_white <<  "] Waiting for " << con::fg_green << "FiveM_GTAProcess.exe" << con::fg_white << " ..." << endl;
 	for (; !GetProcessEntryByName("FiveM_GTAProcess.exe", &pe); Sleep(100));
-	fixcrash();
+	//fixcrash();
 	cout << "[" << con::fg_red << "+" << con::fg_white << "] Injected !" << endl;
 	Sleep(3000);
 	clear();
